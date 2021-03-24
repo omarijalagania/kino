@@ -450,6 +450,10 @@
     .tinyslide {
         min-height: 33vh;
     }
+    .tinyslide .navigator {
+        bottom: 70px;
+        left: 78%;
+    }
     .premiere-container img {
         max-width: 100%;
         width: 70px;
@@ -464,6 +468,9 @@
     }
     .single-movie-carousel {
         max-width:450px ;
+    }
+    .koton-ad-box img {
+        width: 300px;
     }
 
 
