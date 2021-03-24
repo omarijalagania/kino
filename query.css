@@ -472,7 +472,15 @@
     .koton-ad-box img {
         width: 300px;
     }
+    .all-movies-box img{
+        max-width: 100%;
+        width: 450px;
+    } 
 
+    .all-movies {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
     .all-movies-title {
         position: absolute;
@@ -499,6 +507,9 @@
     .fab {
         font-size: 18px;
         padding:10px;
+    }
+    .imdb-rating-carousel {
+        bottom: 29%;
     }
     
 }
@@ -545,6 +556,9 @@
     }
     .single-movie-carousel {
         max-width:450px ;
+    }
+    .imdb-rating-carousel {
+        bottom: 33%;
     }
 
 }
