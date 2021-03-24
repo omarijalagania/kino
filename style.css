@@ -205,9 +205,6 @@ a {
 
 
 
-
-
-
 /* Movie Info*/
 
 
@@ -240,6 +237,7 @@ a {
 }
 
 .watch-treiler:hover {
+    transition: all 0.3s ease;
     background-color: rgb(144, 97, 30);
 }
 
@@ -280,27 +278,63 @@ a {
     margin-bottom: 25px;
 }
 
+.play-treiler-icon {
+    max-height: 20%;
+    position: absolute;
+    z-index: 999;
+    top: 4.7%;
+    left: 92%;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-movies-icons {
+    max-height: 20%;
+    position: absolute;
+    z-index: 1;
+    top: 4.7%;
+    left: 92%;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.all-movies-icons .play-treiler-icon .fa-play-circle .fa-ticket-alt{
+    
+    font-size: 120%;
+}
+
+.fa-play-circle {
+    position: absolute;
+    left: -170%;
+}
+
+.play-treiler-icon .fa-play-circle:hover {
+    transition: all 0.3s ease;
+    color: rgb(207, 148, 66);
+}
+.play-treiler-icon .fa-ticket-alt:hover {
+    transition: all 0.3s ease;
+    color: rgb(207, 148, 66);
+}
+
 .single-movie-carousel:hover {
-    display:block;
+    transition: all 0.3s ease;
+    opacity: 1;
     background-color: rgb(111, 145, 187);
     width: 100%;
     height:100%;
+    cursor: pointer;    
+}
+
+
+.single-movie-carousel:hover > .play-treiler-icon  {
+    transition: all 0.3s ease;
+    opacity: 1;
     cursor: pointer;
-    
-}
-
-.on-hover-text {
-    position: absolute;
-    top:5px;
-    right: 5px;
-    color: white;
-    z-index: 99;
-    display: none;
-}
-
-
-.single-movie-carousel:hover > .on-hover-text  {
-    display: block;
 }
 
 
@@ -382,6 +416,7 @@ a {
 }
 
 .dot-menu-carousel .fa-ellipsis-v:hover {
+    transition: all 0.3s ease;
     border-radius: 50%;
     background-color: rgba(31, 43, 58,0.5);
     display: flex;
@@ -465,10 +500,25 @@ a {
 }
 
 
-.all-movies-box:hover {
+.all-movies-box:hover{
+    transition: all 0.3s ease;
     background-color: rgb(111, 145, 187);
     max-width: 100%;
     cursor: pointer;
+    
+}
+
+.all-movies-box:hover .all-movies-icons {
+    opacity: 1;
+}
+
+.all-movies-icons .fa-play-circle:hover {
+    transition: all 0.3s ease;
+    color: rgb(207, 148, 66);
+}
+.all-movies-icons .fa-ticket-alt:hover {
+    transition: all 0.3s ease;
+    color: rgb(207, 148, 66);
 }
 
 /* .all-movies-box:after {
@@ -484,7 +534,7 @@ a {
 
 
 
-/* Hoover Effects */
+/* Hover Effects */
 
 .gradient-class {
     position:relative;
