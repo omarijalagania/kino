@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
     <link rel="stylesheet" href="style.css">
     <title>Tickets</title>
 </head>
@@ -22,13 +23,13 @@
                     <h2 class="poster-movie-title">GODZILLA VS KONG (2021)</h2>
                     <p class="movie-time">113 m</p>
                     <div class="genre-box">
-                        <button class="btn btn-genre">Acton</button>
-                        <button class="btn btn-genre">Science</button>
-                        <button class="btn btn-genre">Thriller</button>
+                        <a href="#" class="btn-genre">Acton</a>
+                        <a href="#" class="btn-genre">Science</a>
+                        <a href="#" class="btn-genre">Thriller</a>
                     </div>
                     <div class="social-icons-poster">
-                        <div class="fb-poster-icon">FB</div>
-                        <div class="tw-poster-icon">TW</div>
+                        <div class="fb-poster-icon"><i class="fab fa-facebook-square"></i></div>
+                        <div class="tw-poster-icon"><i class="fab fa-twitter-square"></i></div>
                     </div>
                     <div class="movie-poster-description">
                         <h4 class="movie-poster-desc-title">Summary</h4>
@@ -42,9 +43,10 @@
             </div>
         </div>
     </section>
+
        <!--Calendar-->
-       <section class="calendar">
-        <h3 class="date-text">Date</h3>
+    <section class="calendar">
+        <h1 class="date-text">Date</h1>
         <div class="calendar-days">
             <div class="calendar-day-box">
                 <div class="calendar-day">Mar 24</div>
@@ -85,8 +87,14 @@
 <!--Other Movies-->
 
 <section class="movie-watch-times">
+    <h3 class="watch-movie-time-title">აირჩიეთ საათი</h3>
     <div class="single-time-button">
-        <button>13:00</button>
+        <button class="active-time-btn">13:00</button>
+        <button class="active-time-btn">16:00</button>
+        <button class="active-time-btn">18:00</button>
+        <button class="active-time-btn">20:00</button>
+        <button class="disabled-time-btn">22:00</button>
+        <button class="disabled-time-btn">23:00</button>
     </div>
 </section>
 
