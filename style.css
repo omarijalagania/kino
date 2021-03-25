@@ -696,9 +696,11 @@ a {
 }
 
 .poster-movie-title {
+    max-width: 80%;
     margin-bottom: 5px;
     font-weight: 300;
 }
+
 
 /* Big Poster */
 
@@ -707,17 +709,16 @@ a {
 
 
 .small-poster-box {
-    width: 80%;
+    max-width: 80%;
     min-height: 30vh;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%);
+    top: 58%;
+    left: 4%;
     background-color: rgba(149, 175, 223, 0.541);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 
@@ -729,7 +730,12 @@ a {
 }
 .movie-time {
     margin-bottom: 10px;
+    max-width: 80%;
 }
+.genre-box {
+    max-width: 80%;
+}
+
 .btn-genre {
     border: 1px solid #fff;
     padding: 5px 15px;
@@ -746,22 +752,19 @@ a {
 }
 
 .social-icons-poster {
+    max-width: 80%;
     margin-top: 10px;
     display: flex;
 }
 
-.fb-poster-icon,
-.tw-poster-icon {
-    padding: 10px;
+
+.movie-poster-desc-title {
+    max-width: 70%;
+    margin-bottom: 13px;
 }
 
 .actual-description {
     max-width: 80%;
-    margin: 0 10px 0 0;
-}
-
-.movie-poster-desc-title {
-    margin-bottom: 13px;
 }
 
 /* Small Poster with descriptions End */
@@ -770,27 +773,22 @@ a {
 /* Calendar */
 
 .calendar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 12%;
+
+    margin-top: 200px;
 }
 
 .date-text {
     position: relative;
     max-width: 80%;
+    left: 4%;
     margin-bottom: 40px;
-    left: 10%;
 }
 
 .calendar-days {
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    left: 4%;
     width: 60%;
     display: grid;
-    align-items: center;
-    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -801,17 +799,17 @@ a {
     align-items: center;
     width: 100px;
     height: 80px;
-    /* padding: 15px 25px; */
     border: 1px solid orange;
     border-radius: 7px;
 }
+
 .calendar-day {
     font-weight: 300;
     font-size: 90%;
     margin-bottom: 5px;
 }
 .calendar-week {
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .calendar-day-box:hover {
@@ -828,22 +826,18 @@ a {
 .movie-watch-times {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    min-width: 60%;
+    max-width: 80%;
     margin-top: 3%;
+    margin-left: 4%;
 }
 
 .watch-movie-time-title {
-    position: relative;
-    left: 10%;
     margin-bottom: 20px;
-    max-width: 80%;
-
 }
 
 .single-time-button {
     display: grid;
-    justify-content: center;
+    justify-content: flex-start;
     grid-template-columns: 120px 120px 120px 120px 120px 120px;
     background-color: rgb(88, 113, 143);
     padding: 20px;
