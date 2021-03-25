@@ -713,7 +713,11 @@ a {
     position: absolute;
     top: 60%;
     left: 4%;
+    background-color: rgba(149, 175, 223, 0.541);
+    padding: 20px;
+    border-radius: 5px;
 }
+
 
 .small-poster-image {
     display: flex;
