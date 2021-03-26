@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
     <link href="css/tinyslide.css" rel="stylesheet" />
+    <link rel="stylesheet" href="jquery.modal.min.css">
     <link rel="stylesheet" href="owlCarousel/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlCarousel/css/owl.theme.default.css">
     <link rel="stylesheet" href="style.css">
@@ -15,6 +16,26 @@
 </head>
 <body>
     <header>
+
+                    <!--Modal PopUp-->
+                    <div id="ex1" class="modal">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vM-Bja2Gy04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="modal-movie-desc-box">
+                            <div class="modal-left">
+                                <div class="modal-movie-info">
+                                    <h1 class="modal-title">Justice League</h1>
+                                    <div class="modal-year-duration">
+                                        <div class="modal-year">წელი: 2021</div>
+                                        <div class="modal-duration">117 წუთი</div>
+                                    </div>
+                                    <div class="modal-imdb">imdb 7.0</div>
+                                </div>
+                                <button class="modal-watch-treiler">ბილეთი</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modal PopUp END-->
+
         <!--NAV-->
         <nav class="main-nav">
             <ul class="nav-links">
@@ -87,13 +108,14 @@
          <!-- MOVIE - CAROUSEL-->
 
         <section class="carousel-section">
+
             <h1 class="movies-now">ფილმები</h1>
          <!--OWL Carousel Slider-->
 
         <div class="owl-carousel owl-theme">
             <div class="single-movie-carousel">
                 <div class="play-treiler-icon">
-                    <i class="far fa-play-circle"></i>
+                    <a href="#ex1" rel="modal:open"><a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a></a>
                     <i class="fas fa-ticket-alt"></i>
                 </div>
                 <div class="imdb-rating-carousel">IMDB</div>
@@ -111,7 +133,7 @@
 
             <div class="single-movie-carousel">
                 <div class="play-treiler-icon">
-                    <i class="far fa-play-circle"></i>
+                    <a href="#ex1" rel="modal:open"><a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a></a>
                     <i class="fas fa-ticket-alt"></i>
                 </div>
                 <div class="imdb-rating-carousel">IMDB</div>
@@ -129,7 +151,7 @@
 
             <div class="single-movie-carousel">
                 <div class="play-treiler-icon">
-                    <i class="far fa-play-circle"></i>
+                    <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                     <i class="fas fa-ticket-alt"></i>
                 </div>
                 <div class="imdb-rating-carousel">IMDB</div>
@@ -147,7 +169,7 @@
 
             <div class="single-movie-carousel">
                 <div class="play-treiler-icon">
-                    <i class="far fa-play-circle"></i>
+                    <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                     <i class="fas fa-ticket-alt"></i>
                 </div>
                 <div class="imdb-rating-carousel">IMDB</div>
@@ -165,7 +187,7 @@
 
             <div class="single-movie-carousel">
                 <div class="play-treiler-icon">
-                    <i class="far fa-play-circle"></i>
+                    <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                     <i class="fas fa-ticket-alt"></i>
                 </div>
                 <div class="imdb-rating-carousel">IMDB</div>
@@ -183,7 +205,7 @@
 
             <div class="single-movie-carousel">
                 <div class="play-treiler-icon">
-                    <i class="far fa-play-circle"></i>
+                    <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                     <i class="fas fa-ticket-alt"></i>
                 </div>
                 <div class="imdb-rating-carousel">IMDB</div>
@@ -201,7 +223,7 @@
 
             <div class="single-movie-carousel">
                 <div class="play-treiler-icon">
-                    <i class="far fa-play-circle"></i>
+                    <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                     <i class="fas fa-ticket-alt"></i>
                 </div>
                 <div class="imdb-rating-carousel">IMDB</div>
@@ -239,7 +261,7 @@
         <h1 class="all-movies-title">ყველა ფილმი</h1>
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -257,7 +279,7 @@
         
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -275,7 +297,7 @@
 
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -293,7 +315,7 @@
 
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -311,7 +333,7 @@
 
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -329,7 +351,7 @@
 
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -347,7 +369,7 @@
 
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -365,7 +387,7 @@
 
         <div class="all-movies-box">
             <div class="all-movies-icons">
-                <i class="far fa-play-circle"></i>
+                <a href="#ex1" rel="modal:open"><i class="far fa-play-circle"></i></a>
                 <i class="fas fa-ticket-alt"></i>
             </div>
             <div class="imdb-rating-carousel">IMDB</div>
@@ -536,6 +558,7 @@
 
 
     <script src="https://code.jquery.com/jquery-1.11.2.min.js" /></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script src="tinyslide.js"></script><!--MAIN SLIDER JS-->
     <script src="owlCarousel/css/js/owl.carousel.min.js"></script> <!--Own Carousel-->
     <script src="script.js"></script>

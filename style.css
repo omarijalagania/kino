@@ -98,7 +98,7 @@ a {
     -webkit-transform: translateX(-50%); 
     -ms-transform: translateX(-50%); 
     transform: translateX(-50%);
-    z-index: 999;
+    z-index: 9;
 }
 
 .tinyslide .navigator ul { padding: 0; }
@@ -145,12 +145,12 @@ a {
     max-width: 100%;
     float: left; 
     position: relative; 
-    z-index: 0; 
+    z-index: 1; 
 }
 
 .tinyslide figure img { 
     position: relative;
-    z-index: 0;
+    z-index: 1;
     min-width: 100%;
     width: 1300px;
     max-height: 70vh;    
@@ -256,7 +256,7 @@ a {
     display: flex;
     justify-content: center;
     padding: 75px 0 65px 0;
-    z-index: 999;
+    z-index: 9;
 }
 
 /* ფილმები title */
@@ -285,7 +285,7 @@ a {
 .play-treiler-icon {
     max-height: 20%;
     position: absolute;
-    z-index: 999;
+    z-index: 99;
     top: 4.7%;
     left: 92%;
     opacity: 0;
@@ -355,6 +355,7 @@ a {
 } */
 
 .carousel-img {
+
     display: block;
     width: 100%;
     /* max-width: 330px;
@@ -381,7 +382,7 @@ a {
     border: 1px solid white;
     font-size: 60%;
     font-weight: 900;
-    z-index: 99;
+    z-index: 9;
 }
 
 .title-section-carousel {
@@ -871,3 +872,61 @@ a {
     margin: 0 15px;
 }
 /* Buttons Time End*/
+
+
+/* ### MODAL ### */
+
+.modal {
+    position: relative;
+    z-index: 999999;
+    max-width: 33%;
+    background-color: rgb(160, 188, 214);
+}
+.modal iframe {
+    width: 100%;
+}
+.modal-year-duration {
+    display: flex;
+    margin-bottom: 5px;
+}
+.modal-year {
+    border-right: 1px solid orange;
+    padding: 0 3px;
+}
+.modal-duration {
+    padding: 0 3px;
+}
+
+.modal-movie-desc-box {
+    color: black;
+    /* position: absolute;
+    left: 50%;
+    t
+    op: 0; */
+}
+.modal-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-watch-treiler {
+    width: 100px;
+    height: 50px;
+    color: rgb(20, 103, 172);
+    background-color: rgb(248, 163, 44);
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.modal-watch-treiler:hover {
+    color: rgb(225, 241, 255);
+    transition: all 0.3s ease;
+    background-color: rgb(144, 97, 30);
+}
+
+/* ### MODAL END ### */
+
