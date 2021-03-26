@@ -134,6 +134,18 @@
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr 1fr; 
     }
+
+    .small-poster-image {
+        width: 300px;
+        height: 200px;
+    }
+    .calendar-days {
+        position: relative;
+        left: 4%;
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }
 
 /*  1023px - 1078px */
@@ -280,6 +292,17 @@
     .single-time-button {
         grid-template-columns: 120px 120px 120px 120px 120px;
     }
+    .small-poster-image {
+        width: 300px;
+        height: 200px;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 40%;
+    }
 }
 
 
@@ -409,7 +432,7 @@
         padding-top:80px ;
     }
     .small-poster-box {
-        top: 30%;
+        top: 27%;
     }
     
 }
