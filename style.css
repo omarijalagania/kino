@@ -312,8 +312,9 @@ a {
 }
 
 .fa-play-circle {
-    position: absolute;
-    left: -170%;
+    font-size: 24px;
+    position: relative;
+    right: 20%;
 }
 
 .play-treiler-icon .fa-play-circle:hover {
@@ -407,27 +408,16 @@ a {
     margin-bottom: 5px;
 }
 
-.dot-menu-carousel .fa-ellipsis-v{
-    max-width:100% ;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    right: 5px;
-    font-size: 25px;
-    font-weight: 300;
+.fa-info-circle {
+    font-size: 21px;
+    color:rgb(194, 195, 195); ;
 }
 
-.dot-menu-carousel .fa-ellipsis-v:hover {
+.fa-info-circle:hover {
     transition: all 0.3s ease;
-    border-radius: 50%;
-    background-color: rgba(31, 43, 58,0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: rgb(207, 148, 66);
 }
+
 
 /* .dots:hover {
     max-width:100% ;
@@ -557,7 +547,7 @@ a {
 
 .gradient-class:hover::after {
     transition: all 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.431);
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
 .gradient-class img {
