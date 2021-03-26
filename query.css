@@ -208,7 +208,10 @@
         transform: translate(-50%);
         min-height: 25vh;
         width: 100%;
-        top: 30%;
+        top: 50%;
+    }
+    .date-text {
+        left: 5%;
     }
     .modal {
         max-width: 50%;
@@ -338,6 +341,12 @@
         min-height: 25vh;
         width: 100%;
         top: 30%;
+    }
+    .calendar-days {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .single-time-button {
+        grid-template-columns: 120px 120px 120px 120px;
     }
     .modal {
         max-width: 60%;
