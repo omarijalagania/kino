@@ -693,7 +693,7 @@ a {
     width: 1300px;
     -o-object-fit: cover; 
     object-fit: cover;  
-    max-height: 70vh;
+    height: 70vh;
 }
 
 .poster-movie-title {
@@ -715,7 +715,7 @@ a {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 4%;
     background-color: rgba(149, 175, 223, 0.541);
     padding: 20px;
@@ -725,7 +725,7 @@ a {
 
 .small-poster-image {
     display: flex;
-    width: 350px;
+    width: auto;
     height: auto;
     border-radius: 5px;
 }

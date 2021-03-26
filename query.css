@@ -304,7 +304,7 @@
         transform: translate(-50%);
         min-height: 25vh;
         width: 100%;
-        top: 40%;
+        top: 45%;
     }
 }
 
@@ -353,7 +353,7 @@
         font-size: 19px;
     }
     .small-poster-box {
-        top:35%;
+        top:45%;
     }
     .small-poster-image {
         display: none;
@@ -437,6 +437,9 @@
     .small-poster-box {
         top: 27%;
     }
+    .small-poster-box {
+        top:45%
+    }
     
 }
 
@@ -468,7 +471,7 @@
         transform: translate(-50%);
         min-height: 25vh;
         width: 100%;
-        top: 20%;
+        top: 40%;
     }
     .date-text {
         position: relative;
@@ -706,7 +709,10 @@
         transform: translate(-50%);
         min-height: 25vh;
         width: 100%;
-        top: 15%;
+        top: 55%;
+    }
+    .small-poster-description {
+        align-items: center;
     }
     .actual-description {
         display: none;
@@ -716,6 +722,8 @@
     }
     .genre-box {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .btn-genre {
         margin: 0 10px;
@@ -775,10 +783,7 @@
     .imdb-rating-carousel {
         bottom: 33%;
     }
-    .small-poster-box {
-        width: 100%;
-        top: 15%;
-    }
+
     .single-time-button {
         grid-template-columns: 120px 120px;
     }
@@ -809,7 +814,7 @@
         transform: translate(-50%);
         min-height: 25vh;
         width: 100%;
-        top: 8%;
+        top: 48%;
         margin: 0 auto;
     }
     .movie-poster-desc-title {
@@ -900,7 +905,7 @@
         transform: translate(-50%);
         min-height: 25vh;
         width: 100%;
-        top: 8%;
+        top: 50%;
     }
     .poster-movie-title {
         max-width: 100%;
