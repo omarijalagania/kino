@@ -34,6 +34,9 @@
     .calendar-day-box {
         margin: 0 10px;
     }
+    .modal {
+        max-width: 40%;
+    }
 }
 
 
@@ -207,6 +210,9 @@
         width: 100%;
         top: 30%;
     }
+    .modal {
+        max-width: 50%;
+    }
 }
 
 
@@ -333,6 +339,9 @@
         width: 100%;
         top: 30%;
     }
+    .modal {
+        max-width: 60%;
+    }
 }
 
 /* Small phones 699px */
@@ -454,6 +463,9 @@
     .movie-watch-times {
         margin: 0 auto;
     }
+    .modal {
+        max-width: 70%;
+    }
 }
 
 /* Small phones  520px */
@@ -505,6 +517,9 @@
         min-height: 25vh;
         width: 100%;
         top: 20%;
+    }
+    .modal {
+        max-width: 80%;
     }
 }
 
@@ -562,6 +577,9 @@
         min-height: 25vh;
         width: 100%;
         top: 15%;
+    }
+    .modal {
+        max-width: 90%;
     }
 }
 
@@ -658,6 +676,9 @@
         width: 100%;
         top: 5%;
     }
+    .modal {
+        min-width: 100%;
+    }
 }
 
 /* Small phones 360px */
@@ -739,6 +760,25 @@
     .date-text {
         font-size: 130%;
     }
+    .modal frame {
+        width: 100px;
+    }
+    .modal-title {
+        margin-top: 10px;
+        font-size: 90%;
+        margin-bottom: 20px;
+    }
+    .modal-left {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .modal-movie-desc-box {
+        text-align: center;
+    }
+    .modal-watch-treiler {
+        margin-top: 10px;
+    }
 }
 
 /* Small phones 280px */
@@ -811,5 +851,21 @@
     }
     .btn-genre {
         padding: 2px 7px;
+    }
+    .modal-title {
+        margin-top: 10px;
+        font-size: 90%;
+        margin-bottom: 20px;
+    }
+    .modal-left {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .modal-movie-desc-box {
+        text-align: center;
+    }
+    .modal-watch-treiler {
+        margin-top: 10px;
     }
 }
