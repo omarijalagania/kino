@@ -14,6 +14,7 @@
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr 1fr; 
     }
+
 }
 
 
@@ -26,6 +27,12 @@
 
     .tinyslide .navigator {
         bottom: 10%;
+    }
+    .small-poster-box {
+        min-height: 26vh;
+    }
+    .calendar-day-box {
+        margin: 0 10px;
     }
 }
 
@@ -179,6 +186,27 @@
         top: 3%;
         font-size: 19px;
     }
+
+    .small-poster-box {
+        min-height: 20vh;
+    }
+    .small-poster-image {
+        height: 230px;
+    }
+
+    .poster-movie-title {
+        font-size: 100%;
+    }
+    .small-poster-description {
+        font-size: 80%;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 30%;
+    }
 }
 
 
@@ -192,6 +220,16 @@
     }
     .tinyslide {
         min-height: 60vh;
+    }
+    .small-poster-box {
+        top:50%;
+    }
+
+    .calendar-days {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .calendar-day-box {
+        margin-bottom: 20px;
     }
 
 }
@@ -218,6 +256,20 @@
     }
     .movies-now {
         left: 3%;
+    }
+    .small-poster-box {
+        top:45%;
+    }
+    .small-poster-image {
+        height: 200px;
+    }
+    .btn-genre {
+        padding: 3px 13px;
+        font-size: 10px;
+    }
+
+    .single-time-button {
+        grid-template-columns: 120px 120px 120px 120px 120px;
     }
 }
 
@@ -265,6 +317,22 @@
         top: 3%;
         font-size: 19px;
     }
+    .small-poster-box {
+        top:35%;
+    }
+    .small-poster-image {
+        display: none;
+    }
+    .calendar {
+        margin-top: 150px;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 30%;
+    }
 }
 
 /* Small phones 699px */
@@ -280,6 +348,12 @@
     .movie-info {
         position: relative;
         bottom: -50px;
+    }
+    .calendar-days {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .single-time-button {
+        grid-template-columns: 120px 120px 120px 120px;
     }
 }
 
@@ -316,6 +390,10 @@
     .coming-soon-movies {
         padding-top:80px ;
     }
+    .small-poster-box {
+        top: 30%;
+    }
+    
 }
 
 /* Small phones  587px */
@@ -340,6 +418,41 @@
         width: 100px;
         height: auto;
     
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 25%;
+    }
+    .date-text {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+    .calendar-days {
+        align-items: center;
+        justify-content: center;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .single-time-button {
+        grid-template-columns: 120px 120px 120px;
+    }
+    .watch-movie-time-title {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+    .single-time-button {
+        justify-content: center;
+        align-items: center;
+    }
+    .movie-watch-times {
+        margin: 0 auto;
     }
 }
 
@@ -385,6 +498,13 @@
         left: 30%;
         top: 1.5%;
         font-size: 19px;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 20%;
     }
 }
 
@@ -435,6 +555,13 @@
         left: 28%;
         top: 1.5%;
         font-size: 19px;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 15%;
     }
 }
 
@@ -511,7 +638,26 @@
     .imdb-rating-carousel {
         bottom: 29%;
     }
-    
+    .calendar-days {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .single-time-button {
+        grid-template-columns: 120px 120px;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 10%;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 5%;
+    }
 }
 
 /* Small phones 360px */
@@ -560,7 +706,39 @@
     .imdb-rating-carousel {
         bottom: 33%;
     }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 25%;
+    }
+    .single-time-button {
+        grid-template-columns: 120px 120px;
+    }
+    .calendar-days {
+        grid-template-columns: 1fr 1fr;
+    }
+    .poster-movie-title {
+        max-width: 100%;
+        text-align: center;
+    }
 
+    .genre-box {
+        max-width: 100%;
+    }
+    .social-icons-poster {
+        margin: 0 auto;
+    }
+    .movie-poster-desc-title {
+        display: none;
+    }
+    .actual-description {
+        display: none;
+    }
+    .date-text {
+        font-size: 130%;
+    }
 }
 
 /* Small phones 280px */
@@ -603,5 +781,35 @@
         left: 12%;
         top: 1.5%;
         font-size: 19px;
+    }
+    .calendar-days {
+        grid-template-columns: 1fr 1fr;
+    }
+    .actual-description {
+        display: none;
+    }
+    .small-poster-box {
+        left: 50%;
+        transform: translate(-50%);
+        min-height: 25vh;
+        width: 100%;
+        top: 8%;
+    }
+    .poster-movie-title {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .genre-box {
+        max-width: 100%;
+    }
+    .social-icons-poster {
+        margin: 0 auto;
+    }
+    .movie-poster-desc-title {
+        display: none;
+    }
+    .btn-genre {
+        padding: 2px 7px;
     }
 }

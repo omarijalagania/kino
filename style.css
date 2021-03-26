@@ -842,6 +842,7 @@ a {
     grid-template-columns: 120px 120px 120px 120px 120px 120px;
     background-color: rgb(88, 113, 143);
     padding: 20px;
+    border-radius: 5px;
 }
 
 .active-time-btn {
@@ -852,6 +853,7 @@ a {
     border: 1px solid orange;
     font-size: 14px;
     margin: 0 15px;
+    margin-bottom: 10px;
 }
 
 .active-time-btn:hover {
@@ -870,6 +872,7 @@ a {
     border: 1px solid rgb(129, 99, 42);
     font-size: 14px;
     margin: 0 15px;
+    margin-bottom: 10px;
 }
 /* Buttons Time End*/
 
