@@ -146,6 +146,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+    .small-poster-box {
+        top:48%
+    }
 }
 
 /*  1023px - 1078px */
