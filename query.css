@@ -635,7 +635,7 @@
     .nav-links li a {
         display: none;
     }
-    .nav-links .fa-bars {
+    .page {
         display: block;
     }
     .tinyslide {
@@ -754,9 +754,7 @@
     .nav-links li a {
         display: none;
     }
-    .nav-links .fa-bars {
-        display: block;
-    }
+
     .tinyslide {
         min-height: 33vh;
     }
