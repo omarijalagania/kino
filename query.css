@@ -636,6 +636,8 @@
         display: none;
     }
     .page {
+        display: flex;
+        align-items: center;
         display: block;
     }
     .tinyslide {
